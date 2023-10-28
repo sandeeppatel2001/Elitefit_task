@@ -36,7 +36,7 @@
                   src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAMAAAD04JH5AAAAZlBMVEX///8AAADq6uo6OjpUVFTm5ubj4+Pu7u42Njbf39/5+fnLy8ucnJwtLS3z8/PW1tZ4eHiysrJPT08gICBjY2NeXl6/v78LCwsoKCirq6ujo6ODg4NwcHBqampFRUVKSkoXFxeRkZHawpUlAAAEvElEQVR4nO1b65qiMAzlKnItCHIREXn/l9yhKaisaNPGYff7PH+HktienKQhYxhffPHF/4bE81nI2M4Lft20FZ5S27zh6gwN+y03knCwK/MJ8qLxP249YA+/fImrc3I/aj87vLAukH5sG4Lm+miqii+941zsfOFCEX7EfnNnp3LajN3In+zK6Ly/c+FIvwu+M7897krrCeM9djrM5LxGxDFxms07mbf+GBvmbbpQboI1//wze/NokNXTsycy+yWO4NkUqEVCY7+ZNlWW3EkkVtgkxzCIt2FoxS6CiwQepOJV7w5/AeF2pS0Jwv4RfZwhjQfih6QKUc1qpa17hAj/QWmxD9pYv9CNdyh17BuGG4N0Kdu39Oz/qDN4kKqud/SW/2AHypyprQYCHLWySsjTU26prPWBxJpyCqJYqCyFA9AKohEgJCV+IWSASNe+kXAi2uiNDDh9LgRlRamWm2EDSIq7fnzTHrsFV90IvMGvFA4z4xtAVFW147ti1GkGvP4/09gXW4BSI0YTghPOnNCYFaleElmCYQ80sTUU/Bl6JA15NRNr5PEleFAf5GnI66COzr7h8jOQT0m2onyvo0adqTWGTaWUQtcwoHSNU8AhvV2GKBLwSqSltG+4Y27LZbsnKXEQjrAxyoZ6WBIdhtc8ZghVYMSAkKJkfLYi7nA0CF55XAdp7UNdJKltPjp3SSBEpDeeu3piBzAvxTiLc0ByW9nHHJDcAYyz0sBs647fJIgdKBE3NB6G+ScckKxyA66ERD2+CREmwfFLyY7WAZ7gGsmHHfKCSLxT9qaHSRySCGJMYd5QXosA/nise9kMy4VA+mkpZKg6G3oDpBVJhzvVYnycrt1viBpH/ifBRYbQPhfiXF5aOGUqwjNoUdcCQ0Steod0iaTCKgu/GeRkZSE0nDAr4DJJdTWAfguu4cSluyZyABp1uIaTT7kFPaIWmMGlAN/ffAa1liN88qHISBAC+Hb1ESleq0gVGDCCixFBbQoMVLnsQ6dfV43EdyOV1BpclMizwFEjnCAU9WjAk4Byww0+GtUaLWs4RvXapoD1yoMx4ru7+ilCy1a5Zyrs6+gpxKIZK10SxBSBXrsNWv1mrrCL4ru7Wet1POHLo1lhRdk9mhNsvUtWKKaXUlRiKmPzBltvvEvMAZixfEmVTNvf1losFvCmIZ5eUhGaaZ4pMyyIo6tm53v6QVX73oWg7KedHzV0Bx7sNS/b2TQgVb2ZZEqaed6ug33fxRRMNKxiplTfrHIqbG+TjrP8WBUFD354fTfIWA/h0onAz7o74rd35iwxZ6frQXK6H9jL7W5oypAxFpZllDrx/axh8UgVIh6MI1r30b2Kv+cZiXhgjLNyl3fmnw68efA3kp6DH63Plebpmlh5RDzgCKwsPSznSE27i9gLtRY8UMurz5xwWRm1ndNfeqc4t03ov/ttuz0VD1Qx8YD0eyQKVkzIAyVQ80DBAzI9UIUYj7M35IGYctzOAxGN9WeH8F/B31wP3GpzHoCMqw0ZkmB7HmyfF1yonzRvLDoQeqB5b9SBC3lBeqyEHiIzbcmDfHMe5P8ID6inRRAQPPj8f6itwq23rdFAD2g/EqPxtp7/4osvfhF/AFiELjOq4t87AAAAAElFTkSuQmCC"
                 />
               </div>
-              <div style="padding-left: 20%" class="icon tohide">
+              <div style="margin-right: 20%" class="icon tohide">
                 <div @click="showbar">
                   <svg
                     @click="showbar"
@@ -169,7 +169,7 @@ export default {
     position: sticky;
   }
   .thirdpart {
-    margin-left: 80% !important;
+    margin-left: 50% !important;
   }
   .tab {
     display: none;
