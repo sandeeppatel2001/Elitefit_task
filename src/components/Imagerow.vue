@@ -39,9 +39,11 @@ import SemiCircleText from "./Curve.vue";
           src="https://s3-alpha-sig.figma.com/img/6738/8f8b/886dcee081c302bd53b9b66d1abc8fb9?Expires=1699228800&Signature=MBkv8vmvqGXkMnfPsY-VGyHOM342dNhG~Tjjb4tZWbbNuHk6ALKwZIwz1DvgfrvqdM-eyPwfQkb2MFcEqzqN2WZg3U-tvoZh24COj2tMvyyZ-lPpKClrqEutmoGpAkaNaGbr3cfcVAq0bS5ziHior2QNnMA6-rPL6usjMqJoeeTLBX~Tbp~ufWYkgNyvO8bbKo58IUu5rV2QAySXwaZIAADtL671goQq01oRdWik~D3VT0oob9hecJeDkS5GvOKbffVFPDtWAKQd50y3tp2Z5~S5PiuW3asoyBrBJo8NWdl~V9O-d~lMipwDXt~1AFpmVvfvSshz1ZcIFvsQKYX78A__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
         />
         <div class="image-text">
-          <h3 style="width: 150%">YOU WERE MADE TOMAKE AN IMPACT.</h3>
-
-          <button>SHOP PENS</button>
+          <div style="justify-content: center;padding-left: 50%;">
+            <h3 style="width: 190%">YOU WERE MADE TO </h3>
+          <h3 style="width: 190%">MAKE AN IMPACT.</h3>
+          </div>
+          <button style="margin-left: 50%;padding: 5px;">SHOP PENS</button>
         </div>
       </div>
     </div>
@@ -52,11 +54,14 @@ import SemiCircleText from "./Curve.vue";
           src="https://s3-alpha-sig.figma.com/img/7797/1bad/b147095e269ada4131aaf5b0bc00bc73?Expires=1699228800&Signature=khi1lt1yucT3CEDKmM27~mUD6HV7nbpTVADwNEuv5hWDVQIiCW0fGtdEyb2qDn8RQn9AHR7-K46XkXI4amn2rJoeZSCdURKtU11HG~YibUI04FYi-ipyhUY1crJr-mr-m7b16Oi-zwh3u9SSxYkWvfGASSLayzoEOKb4mGRgqHIbT3v0HOyXpBdQ2ZWyhx3pEZl~Z9RkvLBTIDFfouSsQbSTjx7l2d35XB4uY7FdR0Ziehep9KxsmwRufGGqDZoOSv9z7DNG2RJziBaoqh2LBjzsOEUUBvFgnrMuXj8AAZgFEOQtAi0qvN~3cKefZTgwrrCqKjTPgsX5ZpsWWE-tlw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
         />
         <div class="image-text">
-          <h1>MADE FOR THE BEST CHANGE MAKERS</h1>
-
+          <!-- <h1>MADE FOR THE BEST CHANGE MAKERS</h1> -->
+          <div style="justify-content: center;padding-left: 50%;">
+            <h3 style="width: 210%">MADE FOR THE BEST </h3>
+          <h3 style="width: 190%"> CHANGE MAKERS</h3>
+          </div>
           <button
             class="blackbtn"
-            style="background: 2px solid black !important"
+            style="background: 2px solid black !important;margin-left: 60%;"
           >
             SHOP BRAND
           </button>
@@ -91,21 +96,21 @@ import SemiCircleText from "./Curve.vue";
           width="100%"
           src="https://s3-alpha-sig.figma.com/img/4319/3187/1fef7d5682a5acee705caf1655b0ad57?Expires=1699228800&Signature=BlWXy6L1HLTKln9h67F9Q39~BRbqtxYd4EJkMmF90Qw-JxjVMsGiattBaZ0KvwdqnC9MMtO07pE6wACjLul~6tWGE1UxsGlOYletUM370w58O6zz2YZbVnB630TiHLuTDCeI8h2x9pdjUfGBQA3U4yXAaR7D92GmYWdyRS7jrykIe-pmLC7aXvR9wAl0G-bqjoMFADH75l~6QOslyQnZq6Jf8u~pUR0YviAD5A7SncSj3C5an99evUPU5xkS5wpALGKNyIwpcOjTvk5dkbWEYaMN2zd1zGyItv6AJoVpSQz3gVSAcaVYLW1gr7MnAhwsvwQc67X8ku068GioFZlOJg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
         />
-        <div class="image-text">
+        <div class="image-text" style="padding-left: 10%;">
           <h1>SAVOUR THE PRESENT.</h1>
 
           <button>SHOP MONT BLANK</button>
         </div>
       </div>
     </div>
-    <div  class="image-container largeimg">
+    <div  class="image-container largeimg" style="margin-bottom: -700px;">
       <img 
         src="https://s3-alpha-sig.figma.com/img/a879/bbf2/fefd239d879e75409eceffb3c7f1dc3b?Expires=1699228800&Signature=UAiuPtd6zrTBVfLXL-j8MNc9htn7ncfwCzpXwuppkIfhID7sS91K57VXfsd~zQRSs7Ec6iGbWUJkxWu3w3vG4du3qVodui5WqYXUyT2wHocXGRejFVZ-CW3SfpxO45mdBTJgJClFXMewhxp-aIcd9KOjJEbcpDG0-tE9W1z5hdFlC6WHuUfV7b2rwaN0rDHkoBQi-53vuobvcCHq5G07WxPgjmWPDT9MmY9A-B85F4oBwl7fGFGP221vpl2vw9YLJkDf4VQ6b2XOKecJv-DtwnLzaHGZs2j-GcvMO2qXNeoYF0zT6hpng8nXIyTkXQyQw78LOX0Iwd17nDSIL7-3Sg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
         style="z-index: 7; width: 100%; filter: grayscale(10%);
   -webkit-filter: grayscale(10%); background-size: cover;"
       />
-      <div class="image-text" style="bottom: -9%;margin-left: 30%;backface-visibility: hidden;">
-          <h1 style=" margin-bottom: 110%;color: white;">
+      <div class="image-text" style="bottom: -9%;margin-left: 30%;background-color: transparent">
+          <h1 style=" margin-bottom: 100%;color:white;">
             WHERE QUALITY MEETS CLASS.
           </h1>
           <p style="padding-left: 10%; font-size: 300%; margin-top: -100%">
@@ -125,6 +130,7 @@ import SemiCircleText from "./Curve.vue";
           </p>
           <h1 style="margin-top: -15%; display: flex;padding-left: 25%;">PISTONS</h1>
           <!-- <b style="transform: rotate(89.514deg)">P</b> -->
+          <button style="background-color: white;margin-left: 10%;">SHOP THE FALL 2023</button>
         </div>
     </div>
     <div  class="image-container hideimg">
@@ -134,7 +140,7 @@ import SemiCircleText from "./Curve.vue";
       /> -->
       
       <div class="image-text hideimg" style="bottom: -9%;margin-left: 30%;backface-visibility: hidden;">
-          <h1 style=" margin-bottom: 110%;color: white;">
+          <h1 style=" ;color: white; width: 120%;">
             WHERE QUALITY MEETS CLASS.
           </h1>
           <p style="padding-left: 10%; font-size: 300%; margin-top: -100%">
@@ -154,9 +160,10 @@ import SemiCircleText from "./Curve.vue";
           </p>
           <h1 class="t"  style="margin-top: -15%; display: flex;padding-left: 25%;">PISTONS</h1>
           <!-- <b style="transform: rotate(89.514deg)">P</b> -->
+          <button style="margin-top: 30%;">SHOP THE FALL 2023</button>
         </div>
     </div>
-    <About style="z-index: 5" />
+    <About style="z-index: 5 ; " />
   </div>
 </template>
 <script>
@@ -189,8 +196,9 @@ h1{
   .hideimg{
     opacity: 1 !important;
     background-color: black;
+    max-height: 500px;
   }
-      .image-container {
+  .image-container {
       width: 100%;
       display: flex;
       flex-direction:column;

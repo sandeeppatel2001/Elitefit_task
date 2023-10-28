@@ -17,7 +17,12 @@
               <router-link to="/accessories" class="navbar-item"
                 >ACCESSORIES</router-link
               >
-              <router-link to="/about" class="navbar-item">ABOUT</router-link>
+              <router-link
+                to="/about"
+                class="navbar-item"
+                @click="scrollToAbout"
+                >ABOUT</router-link
+              >
             </div>
             <div class="thirdpart">
               <div class="icon">
@@ -77,7 +82,7 @@
             />
           </svg>
         </div>
-        <div style="display: flex; flex-direction: row">
+        <div class="inp" style="display: flex; flex-direction: row">
           <input
             style="
               border: 1px solid rgb(7, 7, 7);
@@ -99,6 +104,7 @@
           margin-right: 10%;
           background-color: white;
           padding: 10%;
+          margin-right: 15%;
         "
         v-if="tohide"
       >
@@ -132,13 +138,63 @@
 <script>
 export default {
   name: "Navbar",
+  mounted() {
+    // Add a scroll event listener when the component is mounted
+    window.addEventListener("scroll", this.handleScroll);
+  },
+  beforeUnmount() {
+    // Remove the scroll event listener when the component is unmounted
+    window.removeEventListener("scroll", this.handleScroll);
+  },
   data() {
     return {
       tohide: false,
-      showSearchBar: false, // Initial state is hidden
+      showSearchBar: false,
+      scrollDirection: "down",
+      lastScrollPosition: 0,
     };
   },
+  created() {
+    window.addEventListener("scroll", this.handleScroll);
+  },
+  beforeDestroy() {
+    window.removeEventListener("scroll", this.handleScroll);
+  },
   methods: {
+    handleScroll() {
+      const scrollPosition = window.scrollY;
+
+      if (scrollPosition >= 2300 && scrollPosition <= 2910) {
+        if (this.scrollDirection === "down") {
+          this.scrolledToDesiredHeight();
+        }
+      }
+      if (scrollPosition >= 3600 && scrollPosition <= 4100) {
+        if (this.scrollDirection === "up") {
+          this.rscrolledToDesiredHeight();
+        }
+      }
+      // Determine the scroll direction
+      this.scrollDirection =
+        scrollPosition > this.lastScrollPosition ? "down" : "up";
+      this.lastScrollPosition = scrollPosition;
+    },
+    scrolledToDesiredHeight() {
+      // Perform your action when the user scrolls to the desired height
+      // You can update data properties or call other functions here
+      window.scrollTo({
+        top: 3900,
+        behavior: "auto",
+      });
+    },
+    rscrolledToDesiredHeight() {
+      // Perform your action when the user scrolls to the desired height
+      // You can update data properties or call other functions here
+      window.scrollTo({
+        top: 2500,
+        behavior: "auto",
+      });
+    },
     toggleSearchBar() {
       this.showSearchBar = true;
     },
@@ -151,17 +207,31 @@ export default {
     hidetocart() {
       this.tohide = false;
     },
+    scrollToAbout() {
+      // Find the target section by its id
+      const aboutSection = document.getElementById("about-section");
+
+      // Scroll to the target section using smooth behavior
+      aboutSection.scrollIntoView({ behavior: "smooth" });
+    },
   },
 };
 </script>
 
 <style>
 .tohide {
-  opacity: 0;
+  /* opacity: 0; */
+  display: none !important;
 }
 @media only screen and (max-width: 700px) {
+  input {
+    width: 50%;
+    padding-left: 50px;
+    border-radius: 13px !important;
+  }
   .tohide {
-    opacity: 1;
+    /* opacity: 1; */
+    display: inline !important;
   }
   .mainnav {
     width: 80px;
@@ -169,7 +239,7 @@ export default {
     position: sticky;
   }
   .thirdpart {
-    margin-left: 50% !important;
+    margin-left: 30% !important;
   }
   .tab {
     display: none;
@@ -205,7 +275,8 @@ export default {
   display: flex;
   flex-direction: row;
   align-items: end;
-  width: 23px;
+  width: 30px;
+  padding-right: 10px;
 }
 .tab {
   /* font-size: larger; */
@@ -215,8 +286,9 @@ export default {
   margin-bottom: 2%;
 }
 .thirdpart {
-  margin-right: 6%;
-  margin-left: 11%;
+  padding: 10px;
+  margin-right: 1%;
+  margin-left: 1%;
   margin-top: 2%;
   margin-bottom: 2%;
   display: flex;

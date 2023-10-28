@@ -4,21 +4,21 @@ import Testimonial from "./Testimonial.vue";
 import axios from "axios";
 </script>
 <template>
-  <div class="out">
+  <div id="about-section" class="out">
     <div class="image-container">
       <div
         class="image-wrapper aboutimg"
         style="
           display: flex;
+
           overflow-x: scroll;
 
-          min-height: 400px;
-          height: 400px;
-          width: 400px;
+          height: 430px;
+          max-width: 50%;
         "
       >
         <img
-          style="z-index: 13"
+          style="z-index: 13; width: 90% !important"
           src="https://s3-alpha-sig.figma.com/img/84be/58c8/a9935b92d53b27552c9edd1725e25e07?Expires=1699228800&Signature=B33otm1Sa3JqO3hEd17YiGN-TyV1ZlGvlgmqIZ3UKf6SW4V5IeyHpzsI8E9fDbPxjUecYCY7yYAEQ4CuRFjPi~~niQav8EgOZmg9iufIWCxnJxy7IPEUtK3kJC7oWau23VS~yQttP21kYCyi~RVOZvC8JanTDGRjwlCumCTTsjZ~ngQ75JukaMhxI2qMOVbGaKjUuN5zHbQk4RZHFpErHbBpEVM9NFzs2qPByVlAL~dx4qIs~f7oFuHgdIwdyjhSjx7GjaHAKwu~8sFkRmUiwOSBjxtUVGt7ziZSpPmgSSbL55eNyTXZCf~BaeZUmhCWpFLY5wi6JE-KdED3q82vQg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
           alt="Image 1"
         />
@@ -119,9 +119,28 @@ export default {
           console.log("xxxxxxxxxxxxxxxx", error);
           this.testimonials = [
             {
-              name: "Api Sever Down ",
-              message: error + "Fetching error ",
-              // image: "https://i.ibb.co/vmYY6tY/img1.png",
+              name: "Alex P.",
+              message:
+                "I stumbled upon this shop, and their selection blew me away. The user-friendly website made my shopping experience a breeze!",
+              image: "https://i.ibb.co/vmYY6tY/img1.png",
+            },
+            {
+              name: "Emily S.",
+              message:
+                "The checkout process was seamless, and the responsive design worked flawlessly on my mobile device. I'll definitely be coming back!",
+              image: "https://i.ibb.co/k29V4KN/img2.png",
+            },
+            {
+              name: "David R.",
+              message:
+                "Their site's intuitive navigation made finding the perfect pen a joy. Five stars for both their products and web design!",
+              image: "https://i.ibb.co/Mcz1SWT/img3.png",
+            },
+            {
+              name: "Lisa M.",
+              message:
+                "I appreciate the attention to detail in both their pens and website. A visually stunning and user-focused online shop.",
+              image: "https://i.ibb.co/94fW8xZ/img4.png",
             },
           ];
         }
@@ -139,16 +158,16 @@ export default {
   .aboutimg {
     min-width: 100%;
   }
-  .tesi {
-    margin-top: 80%;
-  }
-  .out {
-    height: 2200px !important;
-  }
+  /* .tesi {
+    margin-top: 1%;
+  } */
+  /* .out {
+    height: 2000px !important;
+  } */
   .test {
     flex-direction: column !important;
     justify-content: center;
-    padding-left: 15%;
+    padding-left: 5%;
   }
   .about {
     /* margin: 100px; */
@@ -191,8 +210,8 @@ export default {
 }
 
 img {
-  max-width: 100%;
-  height: 90%;
+  max-width: 95%;
+  /* height: 90%; */
 }
 .out {
   height: 3000px;
