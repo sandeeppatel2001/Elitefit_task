@@ -1,6 +1,6 @@
 ## Demo
 
-You can view a live demo of this component [https://653cf07e9c2d717e9c655207--cool-alpaca-781800.netlify.app/](https://653cf07e9c2d717e9c655207--cool-alpaca-781800.netlify.app/).
+You can view a live demo of this component [https://653cfa49f49c4e09dbd278f7--lighthearted-quokka-175423.netlify.app/](https://653cfa49f49c4e09dbd278f7--lighthearted-quokka-175423.netlify.app/).
 
 ## Features
 

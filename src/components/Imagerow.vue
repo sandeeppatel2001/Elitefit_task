@@ -152,7 +152,7 @@ import SemiCircleText from "./Curve.vue";
               </text>
             </svg>
           </p>
-          <h1 style="margin-top: -15%; display: flex;padding-left: 25%;">PISTONS</h1>
+          <h1 class="t"  style="margin-top: -15%; display: flex;padding-left: 25%;">PISTONS</h1>
           <!-- <b style="transform: rotate(89.514deg)">P</b> -->
         </div>
     </div>
@@ -177,6 +177,14 @@ export default {
 </script>
 
 <style>
+h1{
+  font-size: 90%;
+}
+.t{
+  margin-left: 10% !important;
+  padding-left: 7% !important;
+  margin-bottom: 40% !important
+}
 @media only screen and (max-width: 700px) {
   .hideimg{
     opacity: 1 !important;
@@ -190,7 +198,7 @@ export default {
       /* top: 12% !important  ; */
       /* position: sticky;
       overflow-y: scroll !important; */
-      height: 400px !important;
+      height: 800px !important;
      
     }
    
