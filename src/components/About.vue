@@ -140,7 +140,7 @@ export default {
     min-width: 100%;
   }
   .tesi {
-    margin-top: 40%;
+    margin-top: 80%;
   }
   .out {
     height: 1500px !important;
