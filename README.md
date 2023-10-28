@@ -1,6 +1,6 @@
 ## Demo
 
-You can view a live demo of this component [https://653cd4a2eb1488681f9bbe0f--silver-halva-e8dbb4.netlify.app/](link-to-demo).
+You can view a live demo of this component [https://653cd4a2eb1488681f9bbe0f--silver-halva-e8dbb4.netlify.app/](https://653cd4a2eb1488681f9bbe0f--silver-halva-e8dbb4.netlify.app/).
 
 ## Features
 
