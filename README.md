@@ -40,3 +40,7 @@ See [Vite Configuration Reference](https://vitejs.dev/config/).
 ```sh
 npm install
 ```
+
+```sh
+npm run dev
+```
