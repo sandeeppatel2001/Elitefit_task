@@ -27,13 +27,30 @@
                   src="https://cdn-icons-png.flaticon.com/512/263/263142.png"
                 />
               </div>
-              <div class="icon" @click="toggleSearchBar">
+              <div class="icon">
                 <img
+                  @click="toggleSearchBar"
                   style="padding-left: 5%; margin-left: 10px"
                   name="search-icon"
                   id="image"
                   src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAMAAAD04JH5AAAAZlBMVEX///8AAADq6uo6OjpUVFTm5ubj4+Pu7u42Njbf39/5+fnLy8ucnJwtLS3z8/PW1tZ4eHiysrJPT08gICBjY2NeXl6/v78LCwsoKCirq6ujo6ODg4NwcHBqampFRUVKSkoXFxeRkZHawpUlAAAEvElEQVR4nO1b65qiMAzlKnItCHIREXn/l9yhKaisaNPGYff7PH+HktienKQhYxhffPHF/4bE81nI2M4Lft20FZ5S27zh6gwN+y03knCwK/MJ8qLxP249YA+/fImrc3I/aj87vLAukH5sG4Lm+miqii+941zsfOFCEX7EfnNnp3LajN3In+zK6Ly/c+FIvwu+M7897krrCeM9djrM5LxGxDFxms07mbf+GBvmbbpQboI1//wze/NokNXTsycy+yWO4NkUqEVCY7+ZNlWW3EkkVtgkxzCIt2FoxS6CiwQepOJV7w5/AeF2pS0Jwv4RfZwhjQfih6QKUc1qpa17hAj/QWmxD9pYv9CNdyh17BuGG4N0Kdu39Oz/qDN4kKqud/SW/2AHypyprQYCHLWySsjTU26prPWBxJpyCqJYqCyFA9AKohEgJCV+IWSASNe+kXAi2uiNDDh9LgRlRamWm2EDSIq7fnzTHrsFV90IvMGvFA4z4xtAVFW147ti1GkGvP4/09gXW4BSI0YTghPOnNCYFaleElmCYQ80sTUU/Bl6JA15NRNr5PEleFAf5GnI66COzr7h8jOQT0m2onyvo0adqTWGTaWUQtcwoHSNU8AhvV2GKBLwSqSltG+4Y27LZbsnKXEQjrAxyoZ6WBIdhtc8ZghVYMSAkKJkfLYi7nA0CF55XAdp7UNdJKltPjp3SSBEpDeeu3piBzAvxTiLc0ByW9nHHJDcAYyz0sBs647fJIgdKBE3NB6G+ScckKxyA66ERD2+CREmwfFLyY7WAZ7gGsmHHfKCSLxT9qaHSRySCGJMYd5QXosA/nise9kMy4VA+mkpZKg6G3oDpBVJhzvVYnycrt1viBpH/ifBRYbQPhfiXF5aOGUqwjNoUdcCQ0Steod0iaTCKgu/GeRkZSE0nDAr4DJJdTWAfguu4cSluyZyABp1uIaTT7kFPaIWmMGlAN/ffAa1liN88qHISBAC+Hb1ESleq0gVGDCCixFBbQoMVLnsQ6dfV43EdyOV1BpclMizwFEjnCAU9WjAk4Byww0+GtUaLWs4RvXapoD1yoMx4ru7+ilCy1a5Zyrs6+gpxKIZK10SxBSBXrsNWv1mrrCL4ru7Wet1POHLo1lhRdk9mhNsvUtWKKaXUlRiKmPzBltvvEvMAZixfEmVTNvf1losFvCmIZ5eUhGaaZ4pMyyIo6tm53v6QVX73oWg7KedHzV0Bx7sNS/b2TQgVb2ZZEqaed6ug33fxRRMNKxiplTfrHIqbG+TjrP8WBUFD354fTfIWA/h0onAz7o74rd35iwxZ6frQXK6H9jL7W5oypAxFpZllDrx/axh8UgVIh6MI1r30b2Kv+cZiXhgjLNyl3fmnw68efA3kp6DH63Plebpmlh5RDzgCKwsPSznSE27i9gLtRY8UMurz5xwWRm1ndNfeqc4t03ov/ttuz0VD1Qx8YD0eyQKVkzIAyVQ80DBAzI9UIUYj7M35IGYctzOAxGN9WeH8F/B31wP3GpzHoCMqw0ZkmB7HmyfF1yonzRvLDoQeqB5b9SBC3lBeqyEHiIzbcmDfHMe5P8ID6inRRAQPPj8f6itwq23rdFAD2g/EqPxtp7/4osvfhF/AFiELjOq4t87AAAAAElFTkSuQmCC"
                 />
+              </div>
+              <div style="padding-left: 20%" class="icon tohide">
+                <div @click="showbar">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                  >
+                    <path
+                      d="M3 8H21C21.2652 8 21.5196 7.89464 21.7071 7.70711C21.8946 7.51957 22 7.26522 22 7C22 6.73478 21.8946 6.48043 21.7071 6.29289C21.5196 6.10536 21.2652 6 21 6H3C2.73478 6 2.48043 6.10536 2.29289 6.29289C2.10536 6.48043 2 6.73478 2 7C2 7.26522 2.10536 7.51957 2.29289 7.70711C2.48043 7.89464 2.73478 8 3 8ZM21 16H3C2.73478 16 2.48043 16.1054 2.29289 16.2929C2.10536 16.4804 2 16.7348 2 17C2 17.2652 2.10536 17.5196 2.29289 17.7071C2.48043 17.8946 2.73478 18 3 18H21C21.2652 18 21.5196 17.8946 21.7071 17.7071C21.8946 17.5196 22 17.2652 22 17C22 16.7348 21.8946 16.4804 21.7071 16.2929C21.5196 16.1054 21.2652 16 21 16ZM21 11H3C2.73478 11 2.48043 11.1054 2.29289 11.2929C2.10536 11.4804 2 11.7348 2 12C2 12.2652 2.10536 12.5196 2.29289 12.7071C2.48043 12.8946 2.73478 13 3 13H21C21.2652 13 21.5196 12.8946 21.7071 12.7071C21.8946 12.5196 22 12.2652 22 12C22 11.7348 21.8946 11.4804 21.7071 11.2929C21.5196 11.1054 21.2652 11 21 11Z"
+                      fill="black"
+                    />
+                  </svg>
+                </div>
               </div>
             </div>
           </div>
@@ -70,8 +87,15 @@
             placeholder="Search..."
           />
           <button style="background-color: black; color: aliceblue">
-            Search
+            SUBMIT
           </button>
+        </div>
+        <div style="display: flex; flex-direction: column" v-if="tohide">
+          <p style="color: black">NEW</p>
+          <p style="color: black">BRANDS</p>
+          <p style="color: black">COLLECTIONS</p>
+          <p style="color: black">ACCESSORIES</p>
+          <p style="color: black">ABOUT</p>
         </div>
       </div>
     </div>
@@ -83,6 +107,7 @@ export default {
   name: "Navbar",
   data() {
     return {
+      tohide: false,
       showSearchBar: false, // Initial state is hidden
     };
   },
@@ -93,25 +118,35 @@ export default {
     hideSearchBar() {
       this.showSearchBar = false;
     },
+    showbar() {
+      this.tohide = true;
+    },
   },
 };
 </script>
 
 <style>
+.tohide {
+  opacity: 0;
+}
 @media only screen and (max-width: 700px) {
+  .tohide {
+    opacity: 1;
+  }
   .mainnav {
-    width: 50px;
+    width: 80px;
     height: 5%;
     position: sticky;
   }
   .thirdpart {
-    /* margin-left: -4% !important; */
+    margin-left: 80% !important;
   }
   .tab {
     display: none;
   }
   .icon {
     /* display: flex; */
+    padding: 10px;
     display: flex;
     flex-direction: row;
     align-items: end;
@@ -119,7 +154,7 @@ export default {
   }
   .navbar {
     /* height: 0.001% !important; */
-    width: 30%;
+    width: 50%;
     /* margin-bottom: -10%; */
     /* max-height: 5px; */
   }
