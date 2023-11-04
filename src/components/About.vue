@@ -91,6 +91,7 @@ import axios from "axios";
       </div>
     </div>
     <hr />
+    <div className="feedback">FEEDBACK</div>
     <Footer></Footer>
   </div>
 </template>
@@ -217,5 +218,45 @@ img {
   height: 3000px;
   /* overflow-y: scroll; */
   overflow-y: visible;
+}
+@media only screen and (max-width: 768px) {
+  .feedback {
+    top: 200px;
+    padding: 4px 4px 5px 5px;
+    font-size: 10px;
+  }
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+.pridi {
+  font-family: "Pridi" !important;
+}
+.oxygen {
+  font-family: "Oxygen" !important;
+}
+
+.feedback {
+  font-family: Oxygen;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.9px;
+  align-items: center;
+  border: 2px solid #9a9a9a;
+  background: #fff;
+  color: #000;
+  text-align: center;
+  transform: rotate(-90deg);
+  position: fixed;
+  z-index: 10;
+  right: -27px;
+  top: 280px;
+  display: inline-flex;
+  padding: 6px 7px 6px 6px;
+  flex-direction: column;
+  justify-content: center;
 }
 </style>

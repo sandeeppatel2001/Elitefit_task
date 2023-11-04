@@ -1,6 +1,6 @@
 ## Demo
 
-You can view a live demo of this component [https://653cfa49f49c4e09dbd278f7--lighthearted-quokka-175423.netlify.app/](https://653cfa49f49c4e09dbd278f7--lighthearted-quokka-175423.netlify.app/).
+You can view a live demo of this component [https://startling-pithivier-3e3732.netlify.app/.](https://startling-pithivier-3e3732.netlify.app/.).
 
 ## Features
 

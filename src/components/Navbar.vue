@@ -1,4 +1,7 @@
 <template>
+  <div className="stick top d-flex justify-content-center align-items-center">
+    FREE SHIPPING ON ALL ORDERS
+  </div>
   <div class="mainnav">
     <nav class="navbar">
       <div class="container">
@@ -219,6 +222,31 @@ export default {
 </script>
 
 <style>
+.top {
+  color: #9a9a9a;
+  font-family: "Oxygen";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  background-color: #e3e3e3;
+  display: flex;
+  width: 100%;
+  padding: 8px 0px;
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
+}
+.stick {
+  position: sticky;
+  top: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .top {
+    font-size: 10px;
+    height: 24px;
+  }
+}
 .tohide {
   /* opacity: 0; */
   display: none !important;

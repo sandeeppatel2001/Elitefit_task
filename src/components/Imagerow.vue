@@ -13,7 +13,7 @@ import SemiCircleText from "./Curve.vue";
         />
         <div class="image-text" style="bottom: -9%;">
           <h1 style="opacity: 0; margin-bottom: 37%;">
-            this is made fro you nsjdfns vdfv
+            this is made for you nsjdfnljhiihioljhpoinpinpjs vdfv
           </h1>
           <p style="padding-left: 10%; font-size: 300%; margin-top: -100%">
             <svg viewBox="0 0 800 180">
@@ -34,13 +34,13 @@ import SemiCircleText from "./Curve.vue";
         </div>
       </div>
       <div class="image-wrapper">
-        <img
+        <img 
           width="200%"
           src="https://s3-alpha-sig.figma.com/img/6738/8f8b/886dcee081c302bd53b9b66d1abc8fb9?Expires=1699228800&Signature=MBkv8vmvqGXkMnfPsY-VGyHOM342dNhG~Tjjb4tZWbbNuHk6ALKwZIwz1DvgfrvqdM-eyPwfQkb2MFcEqzqN2WZg3U-tvoZh24COj2tMvyyZ-lPpKClrqEutmoGpAkaNaGbr3cfcVAq0bS5ziHior2QNnMA6-rPL6usjMqJoeeTLBX~Tbp~ufWYkgNyvO8bbKo58IUu5rV2QAySXwaZIAADtL671goQq01oRdWik~D3VT0oob9hecJeDkS5GvOKbffVFPDtWAKQd50y3tp2Z5~S5PiuW3asoyBrBJo8NWdl~V9O-d~lMipwDXt~1AFpmVvfvSshz1ZcIFvsQKYX78A__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
         />
         <div class="image-text">
           <div style="justify-content: center;padding-left: 50%;">
-            <h3 style="width: 190%">YOU WERE MADE TO </h3>
+            <h3 style="width: 200%">YOU WERE MADE TO </h3>
           <h3 style="width: 190%">MAKE AN IMPACT.</h3>
           </div>
           <button style="margin-left: 50%;padding: 5px;">SHOP PENS</button>
@@ -140,9 +140,9 @@ import SemiCircleText from "./Curve.vue";
       /> -->
       
       <div class="image-text hideimg" style="bottom: -9%;margin-left: 30%;backface-visibility: hidden;">
-          <h1 style=" ;color: white; width: 120%;">
+          <h4 style=" ;color: white; width: 120%;">
             WHERE QUALITY MEETS CLASS.
-          </h1>
+          </h4>
           <p style="padding-left: 10%; font-size: 300%; margin-top: -100%">
             <svg viewBox="0 0 800 180">
               <path
