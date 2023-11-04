@@ -117,4 +117,15 @@ a {
   padding: 0;
   margin: 0;
 }
+/* @media only screen and (max-width: 768px) {
+  .girl {
+    height: 280px !important;
+  }
+  .curved-text span {
+  min-width: 0.5em;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+} */
 </style>
